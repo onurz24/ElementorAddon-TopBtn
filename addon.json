@@ -1,0 +1,136 @@
+{
+    "addontype": "elementor",
+    "cattitle": "",
+    "name": "bitter_btn_elementor",
+    "alias": "bitter_btn",
+    "title": "Bitter_Btn",
+    "description": "Zum Shop Button",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "items_section_title": "",
+            "items_section_heading": "",
+            "items_title_field": "",
+            "path_assets": "",
+            "js_as_module": false,
+            "addon_icon": "eicon-pro-icon",
+            "dynamic_addon": "false",
+            "dynamic_post_enable_customfields": "false",
+            "dynamic_post_enable_category": "false",
+            "description": "Zum Shop Button",
+            "link_resource": "",
+            "link_preview": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#00ffba",
+            "special": "",
+            "special_data": ""
+        },
+        "params": [
+            {
+                "type": "uc_textfield",
+                "title": "Text",
+                "name": "text",
+                "description": "Zum Shop",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": "Zum Shop",
+                "font_editable": true,
+                "placeholder": "Zum Shop",
+                "disable_dynamic": false,
+                "__attr_catid__": "cat_general_general"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Hintergrundfarbe",
+                "name": "hintergrundfarbe",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": "#8fa202",
+                "selector": ".Bitter_Btn",
+                "selector_value": "background-color : {{VALUE}}",
+                "show_more_selectors": false,
+                "selector2": "",
+                "selector2_value": "",
+                "selector3": "",
+                "selector3_value": "",
+                "__attr_catid__": "cat_style_n1u4yumv"
+            },
+            {
+                "type": "uc_link",
+                "title": "Link",
+                "name": "link",
+                "description": "",
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "label_block": false,
+                "tabname": "",
+                "default_value": ".\/",
+                "__attr_catid__": "cat_general_general"
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": true
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": [],
+        "variables_main": [],
+        "params_cats": [
+            {
+                "id": "cat_general_general",
+                "title": "General",
+                "tab": "content"
+            },
+            {
+                "enable_condition": false,
+                "condition_attribute": null,
+                "condition_operator": "equal",
+                "condition_value": [],
+                "condition_attribute2": null,
+                "condition_operator2": "equal",
+                "condition_value2": null,
+                "id": "cat_style_n1u4yumv",
+                "title": "Styles",
+                "tab": "style"
+            }
+        ]
+    },
+    "templates": [
+        "html",
+        "css",
+        "js"
+    ]
+}
